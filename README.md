@@ -26,7 +26,7 @@
 > 可以通过`PowerChangeTools.exe -h`获得帮助
 
 ```
-usage: WindowsPowerChange (电源模式切换工具) [-h] [--upmode] [--supermode SUPERMODE] [--nonemode] [--morepower] [--version]
+usage: WindowsPowerChange (电源模式切换工具) [-h] [--upmode] [--supermode] [--nonemode] [--morepower] [--version]
                                      [--noadmin]
 
 options:
@@ -47,6 +47,7 @@ options:
 1. [高性能](#高性能)
 2. [卓越模式](#烤鸡模式)
 3. [平衡](#平衡模式)
+4. [节电模式](#节电模式)
 
 ### 高性能
 
