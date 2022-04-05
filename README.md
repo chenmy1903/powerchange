@@ -17,6 +17,9 @@
 
 > 已知问题: 使用本工具切换后并不是真正的解锁, 只是替换第二个电源选项位, 可以通过本工具改回平衡来隐藏解锁的模式
 
+## 1.1版本修复问题
+
+1. 修复查看版本会出现UAC界面的bug
 ## 下载
 
 [GitHub Releases](https://github.com/chenmy1903/powerchange/releases)

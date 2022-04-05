@@ -30,7 +30,7 @@ UP_MODE = "c7fda327-7423-460d-9cf3-2d427e4baea6"  # 高性能
 DONT_PLAY_GAME_MODE = "a1841308-3541-4fab-bc81-f71556f20b4a"  # 节能模式
 NONE_MODE = "381b4222-f694-41f0-9685-ff5bb260df2e"  # 平衡模式
 
-__version__ = "1.0"  # 版本号
+__version__ = "1.1"  # 版本号
 
 
 def is_admin():
@@ -176,7 +176,7 @@ def main():
 
 
 if __name__ == "__main__":
-    if is_admin() or len(sys.argv) > 1 and sys.argv[1] in ["-h", "--help", "--noadmin"]:
+    if is_admin() or len(sys.argv) > 1 and sys.argv[1] in ["-h", "--help", "--noadmin", "--version", "-v"]:
         main()
     else:
         if is_in_exe():
